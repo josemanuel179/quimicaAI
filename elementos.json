@@ -1,0 +1,466 @@
+{
+  "elementos": [
+    {
+      "nombre": "hidrogeno",
+      "elemento": "h",
+      "prefijo": "hidruro",
+      "tipo": "no-metal"
+    },
+    {
+      "nombre": "litio",
+      "elemento": "li",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "sodio",
+      "elemento": "na",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "potasio",
+      "elemento": "k",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "rubidio",
+      "elemento": "rb",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "cesio",
+      "elemento": "cs",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "francio",
+      "elemento": "fr",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "berilio",
+      "elemento": "be",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "magnesio",
+      "elemento": "mg",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "calcio",
+      "elemento": "ca",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "estroncio",
+      "elemento": "sr",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "bario",
+      "elemento": "ba",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "radio",
+      "elemento": "ra",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "escandio",
+      "elemento": "sc",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "itrio",
+      "elemento": "y",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "lutencio",
+      "elemento": "lu",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "laurencio",
+      "elemento": "lr",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "bario",
+      "elemento": "ba",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "radio",
+      "elemento": "ra",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "titanio",
+      "elemento": "ti",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "zirconio",
+      "elemento": "zr",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "hafnio",
+      "elemento": "hf",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "vanadio",
+      "elemento": "v",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "niobio",
+      "elemento": "nb",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "tantalio",
+      "elemento": "ta",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "cromo",
+      "elemento": "cr",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "molibdeno",
+      "elemento": "mo",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "wolframio",
+      "elemento": "w",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "manganeso",
+      "elemento": "mg",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "tecnicio",
+      "elemento": "tc",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "renio",
+      "elemento": "re",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "hierro",
+      "elemento": "fe",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "rutenio",
+      "elemento": "ru",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "osmio",
+      "elemento": "os",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "cobalto",
+      "elemento": "co",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "rhodio",
+      "elemento": "rh",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "iridio",
+      "elemento": "ir",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "niquel",
+      "elemento": "ni",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "paladio",
+      "elemento": "pd",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "platino",
+      "elemento": "pt",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "cobre",
+      "elemento": "cu",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "plata",
+      "elemento": "ag",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "oro",
+      "elemento": "au",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "zinc",
+      "elemento": "zn",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "cadmio",
+      "elemento": "cd",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "mercurio",
+      "elemento": "hg",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "boro",
+      "elemento": "b",
+      "prefijo": "boruro",
+      "tipo": "no-metal"
+    },
+    {
+      "nombre": "aluminio",
+      "elemento": "al",
+      "prefijo": "",    
+      "tipo": "metal"
+    },
+    {
+      "nombre": "galio",
+      "elemento": "ga",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "indio",
+      "elemento": "in",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "talio",
+      "elemento": "tl",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "carbono",
+      "elemento": "c",
+      "prefijo": "carburo",
+      "tipo": "no-metal"
+    },
+    {
+      "nombre": "silicio",
+      "elemento": "si",
+      "prefijo": "",
+      "tipo": "no-metal"
+    },
+    {
+      "nombre": "germanio",
+      "elemento": "ge",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "estaño",
+      "elemento": "sn",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "plomo",
+      "elemento": "pb",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "nitrogeno",
+      "elemento": "n",
+      "prefijo": "",
+      "tipo": "no-metal"
+    },
+    {
+      "nombre": "fosforo",
+      "elemento": "p",
+      "prefijo": "",
+      "tipo": "no-metal"
+    },
+    {
+      "nombre": "arsenico",
+      "elemento": "as",
+      "prefijo": "",
+      "tipo": "no-metal"
+    },
+    {
+      "nombre": "antimonio",
+      "elemento": "sb",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "bismuto",
+      "elemento": "bi",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "oxigeno",
+      "elemento": "o",
+      "prefijo": "oxido",
+      "tipo": "no-metal"
+    },
+    {
+      "nombre": "azufre",
+      "elemento": "s",
+      "prefijo": "",
+      "tipo": "no-metal"
+    },
+    {
+      "nombre": "selenio",
+      "elemento": "se",
+      "prefijo": "",
+      "tipo": "no-metal"
+    },
+    {
+      "nombre": "telurio",
+      "elemento": "te",
+      "prefijo": "",
+      "tipo": "no-metal"
+    },
+    { 
+      "nombre": "polonio",
+      "elemento": "po",
+      "prefijo": "",
+      "tipo": "metal"
+    },
+    {
+      "nombre": "fluor",
+      "elemento": "f",
+      "prefijo": "floruro",
+      "tipo": "no-metal"
+    },
+    {
+      "nombre": "cloro",
+      "elemento": "cl",
+      "prefijo": "cloruro",
+      "tipo": "no-metal"
+    },
+    {
+      "nombre": "bromo",
+      "elemento": "br",
+      "prefijo": "bromuro",
+      "tipo": "no-metal"
+    },
+    {
+      "nombre": "yodo",
+      "elemento": "i",
+      "prefijo": "yoduro",
+      "tipo": "no-metal"
+    },
+    {
+      "nombre": "astato",
+      "elemento": "at",
+      "prefijo": "",
+      "tipo": "no-metal"
+    },
+    {
+      "nombre": "helio",
+      "elemento": "he",
+      "prefijo": "",
+      "tipo": "gas-noble"
+    },
+    {
+      "nombre": "neon",
+      "elemento": "ne",
+      "prefijo": "",
+      "tipo": "gas-noble"
+    },
+    {
+      "nombre": "argon",
+      "elemento": "ar",
+      "prefijo": "",
+      "tipo": "gas-noble"
+    },
+    {
+      "nombre": "kripton",
+      "elemento": "kr",
+      "prefijo": "",
+      "tipo": "gas-noble"
+    },
+    {
+      "nombre": "xenon",
+      "elemento": "xe",
+      "prefijo": "",
+      "tipo": "gas-noble"
+    },
+    {
+      "nombre": "radon",
+      "elemento": "rn",
+      "prefijo": "",
+      "tipo": "gas-noble"
+    }
+  ]
+}
