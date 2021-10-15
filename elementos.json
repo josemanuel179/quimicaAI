@@ -339,19 +339,19 @@
     {
       "nombre": "nitrogeno",
       "elemento": "n",
-      "prefijo": "",
+      "prefijo": "nitruro",
       "tipo": "no-metal"
     },
     {
       "nombre": "fosforo",
       "elemento": "p",
-      "prefijo": "",
+      "prefijo": "fosfuro",
       "tipo": "no-metal"
     },
     {
       "nombre": "arsenico",
       "elemento": "as",
-      "prefijo": "",
+      "prefijo": "arseniuro",
       "tipo": "no-metal"
     },
     {
@@ -375,19 +375,19 @@
     {
       "nombre": "azufre",
       "elemento": "s",
-      "prefijo": "",
+      "prefijo": "sulfuro",
       "tipo": "no-metal"
     },
     {
       "nombre": "selenio",
       "elemento": "se",
-      "prefijo": "",
+      "prefijo": "seleniuro",
       "tipo": "no-metal"
     },
     {
       "nombre": "telurio",
       "elemento": "te",
-      "prefijo": "",
+      "prefijo": "teleluro",
       "tipo": "no-metal"
     },
     { 
@@ -423,7 +423,7 @@
     {
       "nombre": "astato",
       "elemento": "at",
-      "prefijo": "",
+      "prefijo": "astaturo",
       "tipo": "no-metal"
     },
     {

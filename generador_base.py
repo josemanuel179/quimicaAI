@@ -3,7 +3,7 @@ import json
 with open('elementos.json') as json_file:
     data= json.load(json_file)
 
-f1 = open('elementos2.pl', 'w+')
+f1 = open('elementos.pl', 'w+')
 
 elementos = data["elementos"]
 
