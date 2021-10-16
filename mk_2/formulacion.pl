@@ -67,21 +67,21 @@ tipo_correcto([X,Y|_], _) :-
 % Regla para pasar de elementos a nombres
 nombre_prefijo([], []).
 
-nombre_prefijo([o|R], [mon,oxido,de|S]) :-
-	nombre_elemento(R,S),!.
-
 nombre_prefijo([X,o|R], [E,oxido,de|S]) :-
 	prefijo(X,E),
-	nombre_elemento(R,S),!.
+	nombre_elemento(R,S), !.
+
+nombre_prefijo([o|R], [mon,oxido,de|S]) :-
+	nombre_elemento(R,S), !.
 
 nombre_prefijo([X,Y|R], [E,W,de|S]) :-
 	prefijo(X,E),
 	elemento_prefijo(Y,W),
-	nombre_elemento(R,S),!.
+	nombre_elemento(R,S), !.
 
 nombre_prefijo([X|R], [mono,E,de|S]) :-
 	elemento_prefijo(X,E),
-	nombre_elemento(R,S),!.
+	nombre_elemento(R,S), !.
 
 nombre_elemento([], []).
 
@@ -95,11 +95,11 @@ nombre_elemento([X|R], [E|S]) :-
 
 % Regla para formar el compuesto con sus nombres
 formular([X,Y,W,V,Z|_], E) :-
-	atomic_list_concat([X,Y,' ',W,' ',V,Z], '', A),
+	!, atomic_list_concat([X,Y,' ',W,' ',V,Z], '', A),
 	atom_string(A, E).
 
 formular([X,Y,W,Z|_], E) :-
-	atomic_list_concat([X,Y,' ',W,' ',Z], '', A),
+	!, atomic_list_concat([X,Y,' ',W,' ',Z], '', A),
 	atom_string(A, E).
 
 % Componer el compuesto químico
@@ -107,13 +107,13 @@ compuesto_quimico(X, R) :-
 	atom_chars(X, StringElementos),
 	string_elemento(StringElementos, Elementos),
 	invertir_elemento(Elementos, Elementos2),
-	reverse(Elementos2, Elementos3),
-	tipo_correcto(Elementos3, _),
-	nombre_prefijo(Elementos3, Elementos4),
-	formular(Elementos4, R).
-
+    reverse(Elementos2, Elementos3),
+    tipo_correcto(Elementos3, _),
+    nombre_prefijo(Elementos3, Elementos4),
+    formular(Elementos4, R).
 
 % FACTS
 prefijo(2, di).
 prefijo(3, tri).
 prefijo(4, tetra).
+prefijo(5, penta).
