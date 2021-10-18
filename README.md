@@ -20,7 +20,7 @@ La regla **string_elemento** es la encargada de convertir los caracteres numéri
 La regla **invertir_elemento** es la encargada de invertir el orden de los elementos sin alterar el orden de los elementos, reordenandolos de forma ques sus caracteres no sean alterados.
 
 La regla **tipo_correcto** se encarga de comprobar que el compuesto que hemos introducido es un compuesto binario. Para ello:
-- Comprueba el último elemento del compuesto.
+1. Comprueba el último elemento del compuesto.
     - Si es elemento es **Oxígeno** o **Hidrógeno**, pasa la regla
     - Si es elemento es un **no metal**, pasa la regla si el otro elemento es un **metal**.
 
