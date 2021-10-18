@@ -8,10 +8,10 @@ Existen dos formas de ejecutar el programa:
 
 1. Mediante una terminal, ejecutando Prolog con la base de conocimientos **formulacion.pl**.
     - Una vez iniciado, para realizar una consulta de un compuesto, se usará la regla **compuesto_quimico(Elemento, X).**.
-    - Ejemplo: para consultar el nombre del compuesto **CO2**, la regla será **
+    - Ejemplo: para consultar el nombre del compuesto **CO2**, la regla será:
 
 ```
-compuesto_quimico(co2, X).**
+compuesto_quimico(co2, X).
 ```
 
 ## REGLAS
@@ -20,9 +20,9 @@ La regla **string_elemento** es la encargada de convertir los caracteres numéri
 La regla **invertir_elemento** es la encargada de invertir el orden de los elementos sin alterar el orden de los elementos, reordenandolos de forma ques sus caracteres no sean alterados.
 
 La regla **tipo_correcto** se encarga de comprobar que el compuesto que hemos introducido es un compuesto binario. Para ello:
-    - Comprueba el último elemento del compuesto.
-        - Si es elemento es **Oxígeno** o **Hidrógeno**, pasa la regla
-        - Si es elemento es un **no metal**, pasa la regla si el otro elemento es un **metal**.
+- Comprueba el último elemento del compuesto.
+    - Si es elemento es **Oxígeno** o **Hidrógeno**, pasa la regla
+    - Si es elemento es un **no metal**, pasa la regla si el otro elemento es un **metal**.
 
 La regla **nombre_prefijo** es la encargada de asignar al segundo elemento del compuesto su corresponiente nombre de la tabla periodica y su valencia. Para ello se hace uso de una base de conocimiento adicional **elementos.pl** en la cual se reflejan los principales elementos químicos junto con su abreviación.
 
