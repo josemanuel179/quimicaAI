@@ -1,39 +1,28 @@
 # Química IA
 
-## PROBLEMA A SOLUCIONAR
-El problema propuesto para su resolución es la **formulación de compuestos químicos** mediante el uso del lenguaje de programación **Prolog**.
+## Versiones
 
-## FUNCIONAMIENTO
-Existen dos formas de ejecutar el programa:
+| Versión | Nombre | Curso     |
+| ------- | ------ | --------- |
+| V1      | mk_1   | 2020-2021 |
+| V2      | mk_2   | 2021-2022 |
 
-1. Mediante una terminal, ejecutando Prolog con la base de conocimientos **formulacion.pl**.
-    - Una vez iniciado, para realizar una consulta de un compuesto, se usará la regla **compuesto_quimico(Elemento, X).**.
-    - Ejemplo: para consultar el nombre del compuesto **CO2**, la regla será:
 
-```
-compuesto_quimico(co2, X).
-```
+## Ficheros adicionales
 
-## REGLAS
-La regla **string_elemento** es la encargada de convertir los caracteres numéricos en enteros.
+1. elementos.json
+	- Fichero JSON con la información relevante de todos los elementos de la tabla periódica seleccionados.
+	- Este fichero almacena para cada elemento:
+		1. Nombre
+		2. Abreviatura 
+		3. Prefijo
+		4. Tipo
 
-La regla **invertir_elemento** es la encargada de invertir el orden de los elementos sin alterar el orden de los elementos, reordenandolos de forma ques sus caracteres no sean alterados.
-
-La regla **tipo_correcto** se encarga de comprobar que el compuesto que hemos introducido es un compuesto binario. Para ello:
-1. Comprueba el último elemento del compuesto.
-    - Si es elemento es **Oxígeno** o **Hidrógeno**, pasa la regla
-    - Si es elemento es un **no metal**, pasa la regla si el otro elemento es un **metal**.
-
-La regla **nombre_prefijo** es la encargada de asignar al segundo elemento del compuesto su corresponiente nombre de la tabla periodica y su valencia. Para ello se hace uso de una base de conocimiento adicional **elementos.pl** en la cual se reflejan los principales elementos químicos junto con su abreviación.
-
-La regla **nombre_elmento** es la encargada de asignar al primer del compuesto elemento su correspondiente nombre de la tabla periódica y su valencia. Para ello se vuelve ha hacer uso de una base de conocimiento adicional **elementos.pl**.
-
-La regla **formular** es la encargada de unir todos los elementos del compuesto en correcto orden dando como resultado un único string.
-
-Por último, la regla **compuesto_quimico** hace uso de todas las reglas anteriores para dar salida a la formulación exacta del compuesto químico.
-
-## FACTS
-Aqui se añade las posibilidades de tipos de prefijos que existen, siendo estos: "di", "tri" y "tetra" siendo dos, tres y cuatro respectivamente.
-
-## DIAGRAMA DE FLUJO
-![](diagramaDeFlujo.png)
+2. generador_base.py
+	- Programa en Python 3 el cual genera una base de datos Prolog a partir de los datos del fichero 'elementos.json'.
+	- Esta base de datos incluye los hechos:
+		1. **elemento**: almacena el símbolo del elemento
+		2. **elemento_tipo**: almacena el símbolo y el tipo del elemento
+		3. **elemento_prefijo**: almacena el símbolo y el prefijo del elemento
+		4. **elemento_nombre**: almacena el símbolo y el nombre del elemento
+	- El fichero resultante de la operación será 'elementos.pl'
