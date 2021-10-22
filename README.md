@@ -2,10 +2,10 @@
 
 ## Versiones
 
-| Versión | Directorio | Curso     |
-| ------- | ---------- | --------- |
-| V1      | mk_1       | 2020-2021 |
-| V2      | mk_2       | 2021-2022 |
+| Versión | Directorio                                                                | Curso     |
+| ------- | ------------------------------------------------------------------------- | --------- |
+| V1      | [mk_1](https://github.com/josemanuel179/quimicaAI/tree/master/mk_1)       | 2020-2021 |
+| V2      | [mk_2](https://github.com/josemanuel179/quimicaAI/tree/master/mk_2)       | 2021-2022 |
 
 
 ## Ficheros adicionales
