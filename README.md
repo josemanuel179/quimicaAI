@@ -10,7 +10,7 @@
 
 ## Ficheros adicionales
 
-- elementos.json
+1. elementos.json
 	- Fichero JSON con la información relevante de los elementos seleccionados de la tabla periódica.
 	- Este fichero almacena para cada elemento:
         1. Nombre del elemento.
@@ -21,11 +21,11 @@
             - No metal.
             - Gas noble.
 
-- generador_base.py
+2. generador_base.py
 	- Programa en Python 3 que genera una base de datos Prolog a partir de los datos del fichero 'elementos.json'.
 	- Esta base de datos incluye los hechos:
-        1. **__elemento__**: almacena el símbolo del elemento.
-		2. **__elemento_tipo__**: almacena el símbolo y el tipo del elemento.
-		3. **__elemento_prefijo__**: almacena el símbolo y el prefijo del elemento.
-		4. **__elemento_nombre__**: almacena el símbolo y el nombre del elemento.
+        1. **_elemento_**: almacena el símbolo del elemento.
+		2. **_elemento_tipo_**: almacena el símbolo y el tipo del elemento.
+		3. **_elemento_prefijo_**: almacena el símbolo y el prefijo del elemento.
+		4. **_elemento_nombre_**: almacena el símbolo y el nombre del elemento.
     - El fichero resultante de la operación será 'elementos.pl'.
